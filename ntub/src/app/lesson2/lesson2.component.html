@@ -1,0 +1,8 @@
+<p>
+  lesson2 works!
+</p>
+<input type="text" [(ngModel)]="grade">
+
+<button (click)="change()">成績</button>
+<div *ngIf="grade>=60">好棒</div>
+<div *ngIf="!(grade>=60)">好笨</div>
